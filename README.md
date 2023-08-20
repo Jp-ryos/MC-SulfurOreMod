@@ -1,6 +1,13 @@
 # MC-SulfurOreMod
+```java
+/**
+ * Hello. Thank you for watching my Repository!!
+ * @author Jp_ryos
+ * @twitter @Jp_ryos
+ */
+```
 ## Features  
-- New ore "sulfur ore" added
+- New ore "**sulfur ore**" added
 ![img.png](image/sulfur.png)
 
 
@@ -13,5 +20,5 @@
 ![crafting-grid-charcoal.png](image/crafting-grid-charcoal.png)
 
 ## TODO
-- Add Json file for ore generation
+- ~~Add Json file for ore generation~~ **🔨Done**
 - Maybe I should skin the "**sulfur powder**" a little better...?

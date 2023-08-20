@@ -1,6 +1,6 @@
-package jpryos.item;
+package jpryosblock.item;
 
-import jpryos.JpryosBlocks;
+import jpryosblock.JpryosBlock;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
@@ -15,7 +15,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class BlockInit {
   public static final DeferredRegister<Block> BLOCKS =
-      DeferredRegister.create(ForgeRegistries.BLOCKS, JpryosBlocks.MODID);
+      DeferredRegister.create(ForgeRegistries.BLOCKS, JpryosBlock.MODID);
 
   public static final RegistryObject<DropExperienceBlock> sulfur =
       BLOCKS.register(
