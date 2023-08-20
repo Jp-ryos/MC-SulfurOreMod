@@ -20,5 +20,5 @@
 ![crafting-grid-charcoal.png](image/crafting-grid-charcoal.png)
 
 ## TODO
-- Add Json file for ore generation
+- ~~Add Json file for ore generation~~ **🔨Done**
 - Maybe I should skin the "**sulfur powder**" a little better...?
