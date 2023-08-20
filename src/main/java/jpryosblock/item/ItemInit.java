@@ -1,6 +1,6 @@
-package jpryos.item;
+package jpryosblock.item;
 
-import jpryos.JpryosBlocks;
+import jpryosblock.JpryosBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ItemInit {
   public static final DeferredRegister<Item> ITEMS =
-      DeferredRegister.create(ForgeRegistries.ITEMS, JpryosBlocks.MODID);
+      DeferredRegister.create(ForgeRegistries.ITEMS, JpryosBlock.MODID);
 
   public static final RegistryObject<BlockItem> sulfur_item =
       ITEMS.register("sulfur", () -> new BlockItem(BlockInit.sulfur.get(), new Item.Properties()));
