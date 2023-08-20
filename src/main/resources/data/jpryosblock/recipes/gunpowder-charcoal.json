@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C",
+    "C#"
+  ],
+  "key": {
+    "#": {
+      "item": "jpryosblock:sulfur_powder"
+    },
+    "C": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 1
+  }
+}
